@@ -191,7 +191,7 @@ customer.onclick = () => {
    it2.style.backgroundColor = '#111827'
    acc.style.display = 'none'
     account.style.backgroundColor = '#111827'
-    st.style.display = 'none'
+    settingsPage.style.display = 'none'
     st.style.backgroundColor = '#111827'
 }
 
@@ -205,7 +205,7 @@ dash.onclick = () => {
     it2.style.backgroundColor = '#1c2538' /*active*/
     acc.style.display = 'none'
     account.style.backgroundColor = '#111827'
-    st.style.display = 'none'
+    settingsPage.style.display = 'none'
     st.style.backgroundColor = '#111827'
 }
 
@@ -218,7 +218,7 @@ active.onclick = () => {
     it2.style.backgroundColor = '#111827'
     acc.style.display = 'none'
     account.style.backgroundColor = '#111827'
-    st.style.display = 'none'
+    settingsPage.style.display = 'none'
     st.style.backgroundColor = '#111827'
 }
 
@@ -235,7 +235,7 @@ account.onclick = () => {
     it.style.backgroundColor = '#111827'
     it2.style.backgroundColor = '#111827'
     account.style.backgroundColor = '#1c2538'
-    st.style.display = 'none'
+    settingsPage.style.display = 'none'
     st.style.backgroundColor = '#111827'
 }
 
@@ -249,11 +249,19 @@ st.onclick = () => {
     main.style.display = 'none'
     cont.style.display = 'none'
     acc.style.display = 'none'
-    st.style.display = 'block'
+    settingsPage.style.display = 'block'
     active2.style.backgroundColor = '#111827'
     it.style.backgroundColor = '#111827'
     it2.style.backgroundColor = '#111827'
     account.style.backgroundColor = '#111827'
     st.style.backgroundColor = '#1c2538'
     
+}
+
+// register and login
+
+const reg = document.querySelector('.reg')
+
+reg.onclick = () => {
+    window.location.href = './registration-page/register.html'
 }

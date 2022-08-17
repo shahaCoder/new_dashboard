@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="registration-window">
+            <a href="#" class="link">
+                <img src="./images/Vector.svg">
+                Dashboard
+            </a>
+            <h1 class="text">Create a new account</h1>
+            <p style="color: grey;">Use your email to create a new account</p>
+            <div class="main">
+                <form name="register">
+                    <input class="input" type="text" placeholder="First name" name="name" required>
+                    <input class="input" type="text" placeholder="Last name" name="surname" required>
+                    <input class="input" type="email" placeholder="Email adress" name="email" required>
+                    <input class="input" type="password" placeholder="Password" name="password" required>
+                    <input type="checkbox" class="checkbox" required>
+                    <span>I have read the <a href="#" class="policy">Terms and Conditions</a></span>
+                    <button class="sign-up-btn">Registration</button>
+                </form>
+                <p class="account-text">Already have an account? <a href="#">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./register.js"></script>
+</body>
+</html>

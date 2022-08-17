@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sign.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="sign-in">
+            <a href="#" class="link">
+                <img src="../registration-page/images/Vector.svg">
+                Dashboard
+            </a>
+            <h1 class="text">Sign in</h1>
+            <p>Sign up on the internal platform</p>
+            <div class="platforms">
+                <button class="stl facebook">
+                    <img src="./images2/Vector.svg" class="mrgn">
+                    Login with Facebook
+                </button>
+                <button class="stl google">
+                    <img src="./images2/Vector2.svg" class="mrgn">
+                    Login with Google
+                </button>
+            </div>
+            <p class="login-text">or login with email address</p>
+
+            <form name="sign">
+                <div class="inputs">
+                <input type="email" placeholder="Email" name="email" id="eml">
+                <input type="password" placeholder="Password" name="password" id="pswrd">
+                <button class="sign-in-button">Sign in</button>
+                </div>
+            </form>
+            <p>Don’t have an account? <a href="#">Sign up</a></p>
+        </div>
+
+        <div class="modal-bg">
+            <div class="modal">
+                <h1 class="modal-txt">Логин или пароль были введены неккоректно!</h1>
+                <p class="error">Пожалуйста,попробуйте заново или напишите нам в почту о своей ошибке - <a href="#">support@mail.ru</a></p>
+                <button class="modal-btn">Повторить попытку</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./sign.js"></script>
+</body>
+</html>

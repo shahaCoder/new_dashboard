@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ekaterina Tankova",
+      "email": "ekaterina.tankova@devias.io",
+      "location": "Parkersburg, West Virginia, USA",
+      "Phone": "304-428-3097",
+      "registrtionDate": "12/04/2019"
+    },
+    {
+      "name": "shaha",
+      "email": "shaha32@gmail.com",
+      "location": "Samarqand",
+      "Phone": "998906021241",
+      "id": 2
+    },
+    {
+      "name": "shaha",
+      "email": "shaha32@gmail.com",
+      "location": "Samarqand",
+      "Phone": "998906021241",
+      "id": 3
+    },
+    {
+      "name": "Parviz",
+      "email": "papichulilox@gmail.com",
+      "location": "Samarqand",
+      "Phone": "998906021241",
+      "id": 4
+    }
+  ]
+}
